@@ -1,0 +1,2 @@
+//picker para seleccionar datos
+https://github.com/react-native-picker/picker

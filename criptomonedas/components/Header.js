@@ -10,14 +10,14 @@ const Header =()=>{
 
 const styles=StyleSheet.create({
     contenedor:{
-        marginTop:Platform.IO=='ios'?20:10,
-        fontFamily:'Lato-Black',
-        textAlign:'center',
-        fontSize:18,
         backgroundColor:'#1d5d5d',
-        padding:20,
-        marginBottom:10,
         color:'#fff',
+        fontFamily:'Lato-Black',
+        fontSize:18,
+        marginBottom:10,
+        marginTop:Platform.IO=='ios'?20:10,
+        padding:20,
+        textAlign:'center',
         textTransform:'uppercase'
     }
 });
